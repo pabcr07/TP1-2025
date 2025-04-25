@@ -1,27 +1,33 @@
 body{
     background-color: rgb(50, 97, 226);
 }
-img{
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    right: 370px;
-    bottom: 2px;
-    
-}
 main{
     background-color: rgb(219, 216, 216);
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 100%;
-    width: 800px;
+    width: 700px;
     margin: auto;
+    flex-direction: column;
+    border-radius: 10px;
 }
 .header{
-    position: relative;
+    justify-content: center;
+    align-items: center;
 }
-.education{
+
+.header img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    right: 60%;
+    border-radius: 20px;
+}
+nav{
     display: flex;
     flex-direction: column;
+}
+.contact img{
+    width: 40px;
+    height: 40px;
 }
