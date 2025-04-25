@@ -21,3 +21,7 @@ main{
 .header{
     position: relative;
 }
+.education{
+    display: flex;
+    flex-direction: column;
+}
