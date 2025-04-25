@@ -22,7 +22,9 @@ div h3{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+h2{
+    text-decoration: underline;
+}
 .header img{
     width: 120px;
     height: 120px;
@@ -32,25 +34,35 @@ div h3{
 .section-right{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    width: 80%;
-    padding-right: 20px;
+   flex-direction: column;
+    padding: 0 40px;
+    width: 48%;
 
 }
 .section-left{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0 40px;
-    width: 80%;
-    padding-right: 20px;
+  justify-content: space-between;
+ 
+  padding: 0 40px;
+  width: 48%;
+    
 }
 nav{
     display: flex;
     flex-direction: column;
     margin-right: 230px;
+    font-size: 30px;
+
 }
 .contact img{
     width: 40px;
     height: 40px;
+}
+.whatsapp{
+    color: green; 
+    padding-left: 5px; 
+    margin-right: 20px;
+}
+.gmail{
+    color: darkred;
 }
