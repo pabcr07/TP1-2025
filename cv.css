@@ -66,3 +66,21 @@ nav{
 .gmail{
     color: darkred;
 }
+a:link {
+    color: #c71616;
+  }
+  
+  /* enlace visitado */
+  a:visited {
+    color: rgb(50, 97, 226);
+  }
+  
+  /* pasar el ratón sobre el enlace */
+  a:hover {
+    color: #cc00ffb6;
+  }
+  
+  /* enlace seleccionado */
+  a:active {
+    color: #00ff80;
+  }
